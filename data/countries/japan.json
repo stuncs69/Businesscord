@@ -1,0 +1,10 @@
+{
+    "full_name": "Japan",
+    "tax": 10,
+    "currency": "JPY",
+    "currency_symbol": "¥",
+    "country_code": "JP",
+    "boost":{
+        "tech": 1.1
+    }
+}

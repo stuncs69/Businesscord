@@ -1,0 +1,12 @@
+{
+    "full_name": "The Netherlands",
+    "tax": 21,
+    "currency": "EUR",
+    "currency_symbol": "€",
+    "country_code": "NL",
+    "boost":{
+        "education": 1.5,
+        "transport": 10,
+        "EU_bonus": 1.5
+    }
+}
