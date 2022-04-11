@@ -1,0 +1,11 @@
+{
+    "full_name": "Germany",
+    "tax": 19,
+    "currency": "EUR",
+    "currency_symbol": "€",
+    "country_code": "DE",
+    "boost": {
+        "power": 1.5,
+        "EU_bonus": 1.5
+    }
+}
