@@ -1,11 +1,9 @@
-from discord_components import DiscordComponents, ComponentsBot, Button, ButtonStyle
 import discord, asyncio
 from discord.ext import commands
 from core import db_interactions as di
 from core import embed
 from core import data_interactions as datai
 from pymongo import MongoClient
-import interactions
 
 client = MongoClient("mongodb+srv://business:doUeTyy8tulrIEI8@cluster0.vp1o3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client["businesscord"]
