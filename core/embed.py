@@ -15,3 +15,8 @@ def allowed(allowed:str, description:str):
     embed = Embed(color=0x00FF00)
     embed.add_field(name=f"<:allowed:962423626655748116> | {allowed}", value=description)
     return embed
+
+def no_income(first:str, second:str):
+    embed = Embed(color=0xf74200)
+    embed.add_field(name=f"<:no_income:963113414039842856> | {first}", value=second)
+    return embed
