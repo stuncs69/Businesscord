@@ -1,0 +1,11 @@
+{
+    "full_name": "Poland",
+    "tax": 23,
+    "currency": "PLN",
+    "currency_symbol": "zł",
+    "country_code": "PL",
+    "boost": {
+        "EU_bonus": 1.5,
+        "machinery": 1.9
+    }
+}
