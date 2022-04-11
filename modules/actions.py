@@ -35,14 +35,14 @@ class Actions(commands.Cog):
                     to_add = user["max_income"] / 5
 
                     users.update_one({"id":ctx.author.id}, {"$inc": {"cash": to_add}})
-                    msg = await ctx.send(embed=embed.allowed(f"You successfully violated the law and committed tax fraude! {to_add} has been added to your balance."))
+                    msg = await ctx.send(embed=embed.allowed("Fraud success", f"You successfully violated the law and committed tax fraude! {to_add} has been added to your balance."))
 
                     time.sleep(5)
                     await msg.delete()
 
                 elif fraud_outcome == 2:
                     users.delete_one({"id":ctx.author.id})
-                    msg = await ctx.send(embed=embed.fail(f"You've been caught committing fraud. Your company has been forced to go bankrupt, and you will have to rebuild your empire."))
+                    msg = await ctx.send(embed=embed.fail("Failed to commit fraud", f"You've been caught committing fraud. Your company has been forced to go bankrupt, and you will have to rebuild your empire."))
 
                     time.sleep(5)
                     await msg.delete()
