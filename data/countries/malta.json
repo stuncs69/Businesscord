@@ -6,7 +6,7 @@
     "country_code": "ML",
     "boost": {
         "EU_bonus": 1.5,
-        "island": 0.8,
+        "island": -0.8,
         "game_items": 10
     }
 }
