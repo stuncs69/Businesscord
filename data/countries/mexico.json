@@ -1,0 +1,12 @@
+{
+    "full_name": "Mexico",
+    "tax": 16,
+    "currency": "MXN",
+    "currency_symbol": "₱",
+    "country_code": "MX",
+    "boost": {
+        "US_boost": 0.7,
+        "salsa": 2.0,
+        "drugs": -0.5
+    }
+}
