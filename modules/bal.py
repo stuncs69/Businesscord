@@ -16,5 +16,6 @@ class Balance(commands.Cog):
         else:
             embed = em.error("Not registered!", "You can register by typing `b!register`.")
             await ctx.send(embed=embed)
+            
 def setup(bot):
     bot.add_cog(Balance(bot))
