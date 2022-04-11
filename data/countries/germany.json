@@ -5,7 +5,7 @@
     "currency_symbol": "€",
     "country_code": "DE",
     "boost": {
-        "power": 1.5,
+        "weaponry": 1.5,
         "EU_bonus": 1.5
     }
 }
