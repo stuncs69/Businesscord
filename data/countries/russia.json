@@ -1,0 +1,11 @@
+{
+    "full_name": "the Russian Federation",
+    "tax": 20,
+    "currency": "RUB",
+    "currency_symbol": "₽",
+    "country_code": "RU",
+    "boost":{
+        "no_transport":0,
+        "gas":5
+    }
+}
