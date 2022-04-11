@@ -1,4 +1,3 @@
-import pymongo
 from pymongo import MongoClient
 
 client = MongoClient("mongodb+srv://business:doUeTyy8tulrIEI8@cluster0.vp1o3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
@@ -14,3 +13,5 @@ def check_if_exists(id):
         return False
     else:
         return True
+def get_user(id):
+    return users.find_one({"id": id})
