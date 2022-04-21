@@ -55,7 +55,7 @@ class Actions(commands.Cog):
                         return
 
                 elif reaction == "❎":
-                    await msg.delet()
+                    await msg.delete()
 
             except asyncio.TimeoutError:
                         await msg.delete()
