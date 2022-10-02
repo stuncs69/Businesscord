@@ -20,4 +20,4 @@ for x in os.listdir('./modules'):
         bot.load_extension(f'modules.{x[:-3]}')
         print("[!] Loaded module: " + x)
 
-bot.run("OTYyNDQ1MzQ4NDEwODg4Mjg0.YlHpFA.poCBL-J9TwgQPcpWABPAV9Uv5jQ")
+bot.run("")
